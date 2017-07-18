@@ -1,0 +1,34 @@
+<div class="container">
+ <br>
+ <h2>User Name Available Form</h2><br>
+    <form name="userNameForm" >
+       <p>User Name :
+       <input ng-model="userNameCtrl.userNameModel"
+              ng-change="userNameCtrl.userNameChange()"
+              ng-trim=true
+              title="Please fill with a valid user name. At least 6 chars!"
+              alt="Please fill with a valid user name" />
+        <span ng-if="userNameCtrl.userNameValid"> 
+            <img src="../../assets/img/valid.png" width="15"/> 
+        </span>
+        <span ng-if="userNameCtrl.userNameInValid">
+                <img src="../../assets/img/invalid.png" width="15"/> 
+        </span>
+        <div ng-if="userNameCtrl.showSuggestions">
+          <div class="row">
+            <br>
+            <span>Please choose one user name suggestion :</span>
+            <div class="row">
+              <select maxlength="14" style="width: 250px" size="14" 
+                      multiple 
+                      ng-model="userNameCtrl.userNameSugestionModel" 
+                      ng-dblclick="userNameCtrl.userNameSugestionSelected()" 
+                      ng-trim="true">
+                <option ng-repeat="suggestion in userNameCtrl.suggestionsUserName"
+                        ng-model="userNameCtrl.suggestionsUserNameSelected">{{suggestion.userName}}</option>
+              </select>
+            </div>
+          </div>
+        </div>
+    </form>
+</div>

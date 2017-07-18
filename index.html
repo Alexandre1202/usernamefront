@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="username">
+  <head>
+    <META HTTP-EQUIV="Expires" CONTENT="-1">
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta charset="utf-8">
+    <title>alexandre1202@gmail.com - example</title>
+  </head>
+
+  <body style="background:#60d7ec" >
+
+      <a href="#/username">Form to call an user name availability<a/>
+      <section  ui-view></section>
+
+      <script type="text/javascript" src="assets/vendor/js/angular/angular.min.js"></script>
+      <script type="text/javascript" src="assets/vendor/js/angular/angular.resource.min.js"></script>
+      <script type="text/javascript" src="assets/vendor/js/angular-ui/angular-ui-router.min.js"></script>
+      <script type="text/javascript" src="assets/vendor/js/angular-ui/ui-bootstrap.min.js"></script>
+      <script type="text/javascript" src="assets/vendor/js/angular-ui/ui-bootstrap-tpls.min.js"></script>
+
+      <!--- https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.min.js --->
+      <script type="text/javascript" src="assets/vendor/js/angular-route/angular-route.min.js"></script>
+
+      <!-- Configuracao Geral da Aplicação -->
+      <script type="text/javascript" src="config/app.js"></script>
+      <script type="text/javascript" src="config/app.config.js"></script>
+
+      <!-- Formulário index.html depencies -->
+      <script type="text/javascript" src="app/username/username-check.service.js"></script>
+      <script type="text/javascript" src="app/username/username.filter.js"></script>
+      <script type="text/javascript" src="app/username/username.controller.js"></script>
+  </body>
+</html>
