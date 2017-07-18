@@ -1,4 +1,4 @@
-# usernameavailable
+# usernamefront
 Application to check an user name avaiblility
 
 This simple web application has a form that receives an user name and it need to check same rules:
@@ -12,10 +12,9 @@ This simple web application has a form that receives an user name and it need to
 
 The technological solution : 
 - AngularJS 1.6.4, npm 4.1.2, node 7.5.0 in frontend. 
-- Java SE v8 / Java EE v7, Spring MVC 3.3.9, JAXRS-Jersey-API 2.11, Jackson 2.8.4, Spring 4.3.9.RELEASE and Tomcat 9 in backend. 
-- Eclipse Neon 3, MAVEN 3.3.9 and GitHub was used to build this 
 
 Considerations:
 - Flat file usernamelist.txt and username-restricted.txt are provided to be copied in your user.home directory
 - Both username.war (backend application) and usernamefront (frontend application) are necessarely for this solution
+
 
