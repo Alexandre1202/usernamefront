@@ -11,7 +11,7 @@ This simple web application has a form that receives an user name and it need to
 7) it needs to provide a unit test for 2 usernames
 
 The technological solution : 
-- AngularJS 1.6.4, npm 4.1.2, node 7.5.0, 200 Ok Web Server in frontend. 
+- AngularJS 1.6.4, npm 4.1.2, node 7.5.0 and Google Chrome extension ( Web Server 200 Ok ) in frontend. 
 
 Considerations:
 - Flat file usernamelist.txt and username-restricted.txt are provided to be copied in your user.home directory
