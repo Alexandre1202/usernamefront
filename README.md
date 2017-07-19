@@ -32,4 +32,4 @@ Please, follow the procedures below which is necessary to run this frontend. Ins
 
 After this steps, please, enter the url http://localhost:8887/ and you have to accesss the Web Application.
 
-Before to enter the username field, please, access https://git
+Before to enter the username field, please, access https://github.com/Alexandre1202/username to get and start backend too.
